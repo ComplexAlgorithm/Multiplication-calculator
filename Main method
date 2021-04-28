@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Homework8Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("Enter a positive number");
+		int first = keyboard.nextInt();
+		
+		System.out.println("Enter a positive number");
+		int second = keyboard.nextInt();
+		
+		int product = 0;
+		for(int i = 1; i <= second; i++) {
+			product = product + first;
+		}
+		
+		System.out.println("The product of these two numbers is: " + product);
+	}
+
+}
